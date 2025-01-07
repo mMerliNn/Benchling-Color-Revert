@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "Benchling Old Color Scheme",
+    "version": "1.0",
+    "description": "Revert Benchling's latest amino acid color scheme to its original design (2025.01.07)",
+    "content_scripts": [
+        {
+            "matches": ["*://*.benchling.com/*"],
+            "js": ["script.js"]
+        }
+    ]
+}
